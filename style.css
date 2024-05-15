@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0  10px gray;
+    border-radius: 8px;
+    width: 400px;
+}
+
+h1, h2 {
+    text-align: center;
+    color:#333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0 3px;
+}
+
+form input, form select {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #555;
+}
+
+.summary {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.transactions {
+    margin-top: 20px;
+}
+
+.transactions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transactions li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactions li.income span {
+    color: green;
+}
+
+.transactions li.expense span {
+    color: red;
+}
+
+.transactions .delete-btn {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+} */
+
+.transactions .delete-btn:hover { 
+    background: #c0392b;
+}
+
+.Colr{
+    color: forestgreen;
+}
